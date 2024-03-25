@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verificador de CPF</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="cpfInput">Digite o CPF:</label>
+                    <input type="text" id="cpfInput" class="form-control" maxlength="14">
+                </div>
+                <button onclick="verificarCPF()" class="btn btn-primary">Verificar CPF</button>
+                <p id="resultado" class="mt-3"></p>
+            </div>
+        </div>
+    </div>
+<center><footer>Vinicius Santos</footer></center>
+    <script src="script.js"></script>
+</body>
+</html>
